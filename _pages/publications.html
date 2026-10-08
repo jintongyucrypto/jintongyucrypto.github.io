@@ -3,34 +3,92 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+published: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>This page lists all publications from my CV, including accepted papers and current submissions.</p>
 
-{% include base_path %}
+<h2>Publications</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<ol class="publication-list">
+  <li>
+    <strong>Jintong Yu</strong>, Yuxuan Wang, Pei Cao, Zixin He, et al.
+    "TAME: A Deep Learning-based Blind Side-Channel Analysis Framework."
+    <em>IACR CHES</em>, 2026. <span class="pub-note">Accepted.</span>
+  </li>
+  <li>
+    <strong>Jintong Yu</strong>, Yuxuan Wang, Shipei Qu, Yubo Zhao, et al.
+    "End-to-End Non-profiled Side-Channel Analysis on Long Raw Traces."
+    <em>ESORICS</em>, 2025.
+  </li>
+  <li>
+    <strong>Jintong Yu</strong>, Yuxuan Wang, Zixin He, Zhiliang An, et al.
+    "CURE: Robust Blind Side-Channel Analysis under Noisy Pseudo-Labels."
+    <span class="pub-note">Under submission to IACR CHES.</span>
+  </li>
+  <li>
+    <strong>Jintong Yu</strong>, Yuxuan Wang, Zixin He, Yihan Nie, et al.
+    "Blind Leakage: Rethinking Deep Learning-based Non-Profiled Side-Channel Analysis."
+    <span class="pub-note">Under submission to IEEE TIFS.</span>
+  </li>
+  <li>
+    Yuxuan Wang, <strong>Jintong Yu</strong>, Shipei Qu, Xiaolin Zhang, et al.
+    "Mind the Faulty Keccak: A Practical Fault Injection Attack Scheme Apply to All Phases of ML-KEM and ML-DSA."
+    <em>IEEE Transactions on Information Forensics and Security</em>, 2025.
+  </li>
+  <li>
+    Yuxuan Wang, <strong>Jintong Yu</strong>, Yihan Nie, Yubo Zhao, et al.
+    "Neur-SASCA: High-Noise-Tolerant and Automated Single-Trace Attack against NTT."
+    <em>IACR CHES</em>, 2026. <span class="pub-note">Accepted.</span>
+  </li>
+  <li>
+    Yuxuan Wang, <strong>Jintong Yu</strong>, Pei Cao, Yubo Zhao, et al.
+    "CAPE: Cross-Block Deep Learning Framework for Non-profiled Side-Channel Analysis."
+    <em>ESORICS</em>, 2026. <span class="pub-note">Accepted.</span>
+  </li>
+  <li>
+    Yuxuan Wang, <strong>Jintong Yu</strong>, Yihan Nie, Yubo Zhao, et al.
+    "Profiling-Device-Free SASCA Framework for ML-KEM."
+    <span class="pub-note">Under submission to IEEE TIFS.</span>
+  </li>
+  <li>
+    Yao Xu, <strong>Jintong Yu</strong>, Wenxue Li, Jiqiang Feng.
+    "Global Asymptotic Stability of Fractional-Order Competitive Neural Networks with Multiple Time-Varying-Delay Links."
+    <em>Applied Mathematics and Computation</em>, 2021, 389, 125498.
+  </li>
+  <li>
+    Yao Xu, Haodong Wang, <strong>Jintong Yu</strong>, Wenxue Li.
+    "Synchronization of Fractional Complex-Valued Neural Networks with Pantograph Delays and Inhibitory Factors."
+    <em>Neurocomputing</em>, 2023, 559, 126797.
+  </li>
+  <li>
+    Shipei Qu, Yuxuan Wang, <strong>Jintong Yu</strong>, Chi Zhang, et al.
+    "Trace Copilot: Automatically Locating Cryptographic Operations in Side-Channel Traces by Firmware Binary Instrumenting."
+    <em>IACR CHES</em>, 2025.
+  </li>
+  <li>
+    Yubo Zhao, Shipei Qu, Yuxuan Wang, <strong>Jintong Yu</strong>, et al.
+    "SpectroLoc: Cryptographic Operation Localization via Spectrogram Projection and Time-Series Analysis."
+    <em>IACR CHES</em>, 2026. <span class="pub-note">Accepted.</span>
+  </li>
+  <li>
+    Zhiliang An, Chi Zhang, Yubo Zhao, <strong>Jintong Yu</strong>, Yuxuan Wang, et al.
+    "MixPincer: A Discrepancy-Based Adversarial Learning Framework for Cross-Device Profiled Side-Channel Analysis."
+    <em>ESORICS</em>, 2025.
+  </li>
+  <li>
+    Shipei Qu, Yuxuan Wang, <strong>Jintong Yu</strong>, Cheng Hong, et al.
+    "Find the Clasp of the Chain: Efficiently Locating Cryptographic Procedures in SoC Secure Boot by Semi-automated Side-Channel Analysis."
+    <em>ICICS</em>, 2025.
+  </li>
+</ol>
 
+<h2>Patents</h2>
 
-
+<p>
+  First inventor on patent applications covering end-to-end non-profiled side-channel analysis on long raw traces,
+  cross-algorithm non-profiled side-channel analysis for symmetric leakage, and trusted-anchor-weighted deep learning
+  for blind side-channel key recovery. Co-inventor on patent applications related to fault analysis for lattice-based
+  post-quantum cryptography, ML-KEM side-channel analysis, adversarial domain adaptation, and cross-operation
+  unsupervised domain adaptation.
+</p>

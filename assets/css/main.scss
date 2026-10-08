@@ -41,3 +41,48 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+:root {
+  --global-base-color: #2f3a45;
+  --global-link-color: #0b5cad;
+  --global-link-color-hover: #123b64;
+  --global-link-color-visited: #4c5f7a;
+  --global-masthead-link-color: #1f2933;
+  --global-masthead-link-color-hover: #0b5cad;
+}
+
+.archive {
+  line-height: 1.65;
+}
+
+.page__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page__content {
+  h2 {
+    margin-top: 2rem;
+    padding-bottom: 0.35rem;
+  }
+
+  li {
+    margin-bottom: 0.45rem;
+  }
+}
+
+.publication-list {
+  padding-left: 1.4rem;
+}
+
+.publication-list li {
+  margin-bottom: 0.85rem;
+}
+
+.pub-note {
+  color: var(--global-text-color-light);
+}
+
+.author__bio {
+  line-height: 1.45;
+}
