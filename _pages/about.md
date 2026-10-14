@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Computer Science and Technology at Shanghai Jiao Tong University, advised by Prof. Dawu Gu. My research sits at the intersection of hardware security, cryptography, and AI-driven security analysis.
+I am a Ph.D. candidate in Computer Science and Technology at Shanghai Jiao Tong University, advised by Prof. Dawu Gu. Previously, I received my B.Eng. from the Harbin Institute of Technology.
 
-My recent work focuses on deep learning-based side-channel analysis, post-quantum cryptographic implementations, and privacy protection for AI agent memory systems. I am expected to graduate in 2027, and I am currently seeking postdoctoral positions.
+My research sits at the intersection of hardware security, cryptography, and AI-driven security analysis. I am expected to graduate in 2027, and I am currently seeking postdoctoral positions.
 
 ## Research Interests
 
@@ -20,11 +20,11 @@ My recent work focuses on deep learning-based side-channel analysis, post-quantu
 
 ## News
 
-- **2026:** I am currently seeking postdoctoral positions in hardware security, applied cryptography, and AI security.
-- **2026:** TAME, a deep learning based blind side-channel analysis framework, was accepted to IACR CHES 2026.
+- **2026:** I am currently seeking a postdoctoral position in 2027.
+- **2026:** 🎉 TAME, a deep learning based blind side-channel analysis framework, was accepted to IACR CHES 2026.
 - **2026:** Received the Cybersecurity Professional Funding Program from the Cybersecurity Association of China.
-- **2025:** End-to-end non-profiled side-channel analysis on long raw traces was published at ESORICS 2025.
-- **2025:** A practical fault injection attack scheme for ML-KEM and ML-DSA was published in IEEE TIFS.
+- **2025:** 🎉 End-to-end non-profiled side-channel analysis on long raw traces was published at ESORICS 2025.
+- **2025:** 🎉 A practical fault injection attack scheme for ML-KEM and ML-DSA was published in IEEE TIFS.
 
 ## Recent Publications
 
@@ -35,6 +35,13 @@ My recent work focuses on deep learning-based side-channel analysis, post-quantu
 - Yuxuan Wang, **Jintong Yu**, Pei Cao, Yubo Zhao, et al. "CAPE: Cross-Block Deep Learning Framework for Non-profiled Side-Channel Analysis." ESORICS, 2026.
 
 [Full publication list](/publications/)
+
+## Services
+### Reviewer
+- IACR CHES (2027)
+- IEEE TIFS (2025)
+- PKC (2025)
+- InsCrypt (2024, 2026)
 
 ## Selected Projects
 
@@ -49,12 +56,6 @@ My recent work focuses on deep learning-based side-channel analysis, post-quantu
 - **Shanghai Jiao Tong University**, Ph.D. Candidate in Computer Science and Technology, 2022-present.
 - **Harbin Institute of Technology**, B.S. in Mathematics, 2018-2022.
 
-## Honors
-
-- Cybersecurity Professional Funding Program, Cybersecurity Association of China, 2026.
-- Graduate Academic Scholarship, Shanghai Jiao Tong University, 2022-2025.
-- Academic Scholarship and Outstanding Student, Harbin Institute of Technology, 2018-2021.
-- National Second Prize, Chinese Mathematics Competition, 2019.
 
 ## Contact
 
